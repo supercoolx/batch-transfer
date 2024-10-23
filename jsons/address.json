@@ -1,0 +1,8 @@
+{
+    "testnet": {
+        "contract": "0xA4c0cCceaB1FfC1aD205444FD018391C347bc804"
+    },
+    "mainnet": {
+        "contract": ""
+    }
+}
