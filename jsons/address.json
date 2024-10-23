@@ -1,8 +1,8 @@
 {
-    "testnet": {
-        "contract": "0xA4c0cCceaB1FfC1aD205444FD018391C347bc804"
-    },
-    "mainnet": {
-        "contract": ""
-    }
+  "testnet": {
+    "contract": "0xA4c0cCceaB1FfC1aD205444FD018391C347bc804"
+  },
+  "mainnet": {
+    "contract": "0xFe35ea502F4aA05bB75982A4fDac3aF107cbdD15"
+  }
 }

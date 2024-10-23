@@ -7,11 +7,12 @@ async function main() {
     // Check if the network is supported.
     console.log(`Deploying to ${network} network...`);
 
-    const BatchTransfer = await ethers.getContractFactory("BatchTransfer");
-    const contract = await BatchTransfer.deploy();
-    await contract.waitForDeployment();
+    // const BatchTransfer = await ethers.getContractFactory("BatchTransfer");
+    // const contract = await BatchTransfer.deploy();
+    // await contract.waitForDeployment();
 
-    const address = await contract.getAddress();
+    // const address = await contract.getAddress();
+    const address = "0xFe35ea502F4aA05bB75982A4fDac3aF107cbdD15";
     console.log("BatchTransfer contract deployed to:", address);
 
     await run('verify:verify', {
